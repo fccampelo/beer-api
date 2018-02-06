@@ -1,7 +1,7 @@
 
 ## Dependencies
 
-## Table of Contents
+
 
 - [react-redux](https://github.com/reactjs/react-redux)
 - [react-router](https://github.com/ReactTraining/react-router)
@@ -20,4 +20,3 @@
 ```sh
   $ npm start
 ```
-[react-router] 
