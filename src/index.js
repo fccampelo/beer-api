@@ -8,7 +8,7 @@ import Router from './main/routes';
 import { store } from './main/store'
 
 ReactDOM.render(
-  <Provider store={store} >
+  <Provider store={ store } >
     <Router />
   </Provider >
   , document.getElementById('root'));
