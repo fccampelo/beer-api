@@ -4,7 +4,7 @@ import { bindActionCreators } from 'redux';
 
 import { getListBeers } from './BeerActions';
 import Row from '../common/ui/row';
-import List from '../common/ui/list';
+import Table from '../common/ui/table';
 
 class BeerList extends Component {
 
@@ -15,7 +15,7 @@ class BeerList extends Component {
   render () {
     return (
       <Row>
-        <List beers={this.props.beers} />
+        <Table beers={this.props.beers} />
       </Row>  
     )
   };
@@ -24,6 +24,6 @@ class BeerList extends Component {
 const mapStateToProps = state => ({
   beers : state.beers.beersList
 });
-const mapDispatchToProps = dispatch => bindActionCreators({getListBeers}, dispatch);
+const mapDispatchToProps = dispatch => bindActionCreators({ getListBeers }, dispatch);
 
 export default connect(mapStateToProps, mapDispatchToProps)(BeerList);
