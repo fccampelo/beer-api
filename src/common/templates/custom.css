@@ -1,10 +1,12 @@
+
 .card {
   padding-top: 20px; 
   box-shadow:  8px 8px 10px 0px black;
   background-color: #fff;
-  border: 1px solid #e9e7e7;
+  border: 2px solid #e9e7e7;
   width: 50rem;
-  margin: 50px auto;
+  position: relative;
+  margin: 0 auto;
 }
 
 .card-img-top {
@@ -21,4 +23,30 @@
 
 .card-text {
   padding: 20px;
-}; 
+};
+
+.card-btn {
+  padding: 20px;
+}
+
+.box-card {
+  width: 500px;
+  background-color: red;
+};
+
+.beer {
+  display: flex;
+  flex-wrap: wrap;
+};
+
+.nav-tabs-custom {
+  margin-right: 15px;
+}
+
+.wiget {  
+  top: 20px;
+  background-color: #fff;
+}
+.info-box { 
+  margin: 20px 0;
+}
