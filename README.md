@@ -1,8 +1,6 @@
 
 ## Dependencies
 
-
-
 - [react-redux](https://github.com/reactjs/react-redux)
 - [react-router](https://github.com/ReactTraining/react-router)
 - [axios](https://github.com/axios/axios)
