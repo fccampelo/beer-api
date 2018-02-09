@@ -4,4 +4,8 @@ export const BEER_ACTION = {
   FILTER_NAME: 'FILTER_NAME'
 };
 
+export const TAB_ACTION = {
+  TAB_SELECTED: 'TAB_SELECTED'
+};
+
 export const BASE_URL = 'https://api.punkapi.com/v2/beers';
