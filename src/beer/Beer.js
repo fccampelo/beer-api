@@ -25,17 +25,17 @@ class Beer extends Component {
         {this.props.beer.map((data, i) => {
           return (
             <div className="row">
-               <div className="col-md-12" style={{ position: 'absolut' }}>
+               <div className="col-md-12">
                 <Wiget className="col-md-2" info={'Nível de PH'} value={data.ph} icon={'line-chart'} />
                 <Wiget className="col-md-2" info={'Nível de Atenuação'} value={data.attenuation_level}  icon={'fire'}/>
                 <Wiget className="col-md-2" info={'Nome da cerveja'} value={data.name}  icon={'tag'}/>
                 <Wiget className="col-md-2" info={'1ª Fabricação'} value={data.first_brewed}  icon={'calendar'}/>
               </div>
-              <div className="col-md-6">  
+              <div className="col-sm-12 col-md-6 col-lg-6  card-main">  
                  <Card title={data.name} key={i} description={data.description} img={data.image_url} />
               </div>
               <div className="col-sm-12 col-md-6"> 
-                <Tabs style={{margin: '0 auto'}}>
+                <Tabs>
                   <TabsHeader >
                     <TabHeader  label='Quantidade Malt' icon='bars' target='ingrediente' />
                     <TabHeader  label='Lúpulo da Cerveja' icon='bars' target='sugestao' />
@@ -50,7 +50,7 @@ class Beer extends Component {
           )
         })}    
       </div>  
-    )
+    );
   }
 };
 
