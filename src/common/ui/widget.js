@@ -7,7 +7,7 @@ export default props => (
       <span className="info-box-icon bg-aqua"><i className={`fa fa-${props.icon}`}></i></span>
       <div className="info-box-content">
         <span className="info-box-text"><b> { props.info } </b></span>
-        <span className="info-box-number">{ props.value }</span>
+        <span className="wiget-content">{ props.value }</span>
       </div>
     </div>
   </div>
