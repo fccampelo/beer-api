@@ -6,7 +6,7 @@
   border: 2px solid #e9e7e7;
   width: 50rem;
   position: relative;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 .card-img-top {
@@ -49,4 +49,17 @@
 }
 .info-box { 
   margin: 20px 0;
+}
+
+.tabs {
+  margin-top: 21px;
+  padding-right: 30px;
+};
+
+/* WidGet */
+
+.wiget-content {
+  font-size: 15px;
+  display: block;
+  font-weight: 500;
 }
