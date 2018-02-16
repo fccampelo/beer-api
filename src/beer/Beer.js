@@ -28,13 +28,13 @@ class Beer extends Component {
                <div className="col-md-12">
                 <Wiget className="col-md-2" info={'Nível de PH'} value={data.ph} icon={'line-chart'} />
                 <Wiget className="col-md-2" info={'Nível de Atenuação'} value={data.attenuation_level}  icon={'fire'}/>
-                <Wiget className="col-md-2" info={'Nome da cerveja'} value={data.name}  icon={'tag'}/>
+                <Wiget className="col-md-2" info={'Tag Line'} value={data.tagline}  icon={'tag'}/>
                 <Wiget className="col-md-2" info={'1ª Fabricação'} value={data.first_brewed}  icon={'calendar'}/>
               </div>
-              <div className="col-sm-12 col-md-6 col-lg-6  card-main">  
+              <div className="col-sm-12 col-md-6 col-lg-6">  
                  <Card title={data.name} key={i} description={data.description} img={data.image_url} />
               </div>
-              <div className="col-sm-12 col-md-6"> 
+              <div className="col-sm-12 col-md-6 tabs"> 
                 <Tabs>
                   <TabsHeader >
                     <TabHeader  label='Quantidade Malt' icon='bars' target='ingrediente' />
