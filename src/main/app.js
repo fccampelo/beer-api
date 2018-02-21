@@ -1,4 +1,5 @@
 import '../common/templates/dependencias';
+import '../common/templates/custom.css';
 import React from 'react';
 
 import Footer from '../common/footer/footer';
